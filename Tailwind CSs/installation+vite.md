@@ -7,7 +7,7 @@ using `npm create vite@latest`
 ```bash
 #This will install the binary of tailwind too which is missing in the latest download of tailwind v4
 npm install -D tailwindcss@3 postcss autoprefixer vite
-npm tailwindcss init -p
+npx tailwindcss init -p
 ```
 Then after in the tailwindcss.config.js modify the changes:
 ```js
