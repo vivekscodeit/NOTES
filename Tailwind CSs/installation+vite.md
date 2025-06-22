@@ -20,6 +20,14 @@ module.exports = {
   plugins: [],
 }
 ```
+Also add these lines in the style.css file and link it to the index.html file
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+
 Then after in package.json in the script write 
  ```json 
   "scripts": {
